@@ -1,0 +1,97 @@
+body{
+    background-color: forestgreen;
+    color:seagreen;
+}
+
+table{
+    margin: 40px;
+    float: left;
+}
+.black{
+    background-color: black;
+}
+
+.white{
+    background-color: white;
+}
+
+td{
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    position: relative;
+}
+tr{
+    padding: 0;
+    border: none;
+}
+
+.number{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.char{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+
+.board{
+    margin: 40px;
+    float: right;
+    width: 300px;
+    font-size: larger;
+    color: black;
+    text-align: center;
+    background-color: white;
+}
+
+.board>img{
+    display: inline-block;
+    /* width: 100px; */
+    width: 200;
+    margin: 0 10px ;
+    padding: 20px;
+}
+#target{
+    /* display: inline-block; */
+    font-size: larger;
+    /* height: 100px; */
+}
+
+#timer{
+    font-size: larger;
+}
+
+#score{
+    font-size: larger;
+}
+
+#startBtn{
+    font-size: larger;
+    margin: 5px;
+    
+}
+
+td>img{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#checks{
+    position: relative;
+}
+#checks>img{
+    width: 15px;
+    height: 15px;
+    display: inline;
+    /* position: absolute; */
+    /* top: 0; */
+    /* right: 0; */
+}
